@@ -306,8 +306,8 @@ const DUAS = [
 
 // ═══════════════ STATE ═══════════════
 let lang = localStorage.getItem('mush-lang') || 'ar';
-let theme = localStorage.getItem('mush-theme') || 'teal';
-const themes = ['teal', 'night', 'garden'];
+let theme = localStorage.getItem('mush-theme') || 'nature';
+const themes = ['nature', 'night', 'garden'];
 const themeIcons = ['🌿', '🌙', '🍃'];
 const themeNames = { teal: '🌿 Teal', night: '🌙 Night', garden: '🍃 Garden' };
 let currentCardIdx = -1;
