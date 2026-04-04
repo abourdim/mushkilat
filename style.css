@@ -389,3 +389,5 @@ button:active:not(.tab):not(.quiz-opt){transform:scale(.96)}
 .particles-canvas{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:-1}
 .narrator-panel.hidden{display:none}
 .narrator-panel *{color:#eee!important}.narrator-panel select{background:#1a1a2e!important;color:#eee!important;border-color:rgba(255,255,255,.2)!important}.narrator-panel .narrator-title{color:#ffcc80!important}.narrator-panel .narrator-mode-btn{color:#eee!important;background:rgba(255,255,255,.08)!important;border-color:rgba(255,255,255,.15)!important}.narrator-panel input[type=range]{accent-color:#ffcc80}
+[data-theme="nature"] .trait-card,[data-theme="nature"] .card,[data-theme="nature"] [class*="-card"]{background:var(--card,#fff);color:var(--t1,#1B3A1B)}
+[data-theme="ocean"] .trait-card,[data-theme="ocean"] .card,[data-theme="ocean"] [class*="-card"]{background:var(--card,#fff);color:var(--t1,#004D40)}
