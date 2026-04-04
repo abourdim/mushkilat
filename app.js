@@ -225,6 +225,36 @@ const CARDS = [
     ar: { title: 'فقدان الأمل', desc: 'اليأس من إصلاح حال الأمة حرام. الله وعد بالنصر لمن أخذ بالأسباب. التفاؤل عبادة والأمل طريق.', verse: 'وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ', action: 'ابدأ يومك بأمل وتفاؤل — اذكر نعمة واحدة تشكر الله عليها' },
     en: { title: 'Losing Hope', desc: 'Despair of reforming the Ummah is forbidden. God promised victory to those who take action. Optimism is worship and hope is the path.', verse: 'وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ', action: 'Start your day with hope — mention one blessing you thank God for' },
     fr: { title: 'Perte d\'Espoir', desc: 'Le desespoir de reformer l\'Oumma est interdit. Dieu a promis la victoire a ceux qui agissent. L\'optimisme est adoration et l\'espoir est le chemin.', verse: 'وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ', action: 'Commencez votre journee avec espoir — mentionnez une benediction pour laquelle vous remerciez Dieu' }
+  },
+  {
+    id: 21, emoji: '📱',
+    ar: { title: 'مشكلة وسائل التواصل', desc: 'وسائل التواصل الاجتماعي سلاح ذو حدين. أصبحت أداة لنشر الإشاعات والفتن والتنمر بدل أن تكون منبراً للخير والعلم. الإسلام يأمر بالتثبت من الأخبار قبل نشرها.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا', action: 'تحقق من صحة خبر قبل مشاركته اليوم' },
+    en: { title: 'Social Media Problems', desc: 'Social media is a double-edged sword. It has become a tool for spreading rumors, discord, and bullying instead of serving knowledge and goodness. Islam commands verifying news before spreading it.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا', action: 'Verify a news item before sharing it today' },
+    fr: { title: 'Problemes des Reseaux Sociaux', desc: 'Les reseaux sociaux sont une arme a double tranchant. Ils sont devenus un outil de propagation de rumeurs et de discorde au lieu de servir le savoir et le bien. L\'Islam ordonne de verifier les nouvelles avant de les diffuser.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا', action: 'Verifiez une information avant de la partager aujourd\'hui' }
+  },
+  {
+    id: 22, emoji: '👴',
+    ar: { title: 'الفجوة بين الأجيال', desc: 'الفجوة بين الأجيال تتسع. الآباء لا يفهمون الأبناء والأبناء لا يحترمون الآباء. الإسلام يدعو للحوار والتفاهم بين الأجيال والبر بالوالدين.', verse: 'وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا', action: 'تحدث مع أحد والديك أو أبنائك حديثاً عميقاً اليوم' },
+    en: { title: 'The Generational Gap', desc: 'The gap between generations widens. Parents do not understand children and children do not respect parents. Islam calls for dialogue and mutual understanding between generations and honoring parents.', verse: 'وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا', action: 'Have a deep conversation with a parent or child today' },
+    fr: { title: 'Le Fosse Generationnel', desc: 'Le fosse entre les generations se creuse. Les parents ne comprennent pas les enfants et les enfants ne respectent pas les parents. L\'Islam appelle au dialogue et a la comprehension mutuelle entre les generations.', verse: 'وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا', action: 'Ayez une conversation profonde avec un parent ou un enfant aujourd\'hui' }
+  },
+  {
+    id: 23, emoji: '🗣️',
+    ar: { title: 'ضياع اللغة العربية', desc: 'إهمال اللغة العربية يقطع المسلمين عن فهم القرآن والسنة مباشرة. اللغة وعاء الثقافة وفقدانها فقدان للهوية. تعليم العربية فريضة حضارية.', verse: 'إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ', action: 'تعلم كلمة عربية جديدة اليوم أو علّمها لغيرك' },
+    en: { title: 'Loss of the Arabic Language', desc: 'Neglecting Arabic disconnects Muslims from directly understanding the Quran and Sunnah. Language is the vessel of culture and losing it means losing identity. Teaching Arabic is a civilizational duty.', verse: 'إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ', action: 'Learn a new Arabic word today or teach one to someone' },
+    fr: { title: 'Perte de la Langue Arabe', desc: 'Negliger l\'arabe deconnecte les musulmans de la comprehension directe du Coran et de la Sunna. La langue est le receptacle de la culture et la perdre c\'est perdre l\'identite. Enseigner l\'arabe est un devoir civilisationnel.', verse: 'إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ', action: 'Apprenez un nouveau mot arabe aujourd\'hui ou enseignez-en un a quelqu\'un' }
+  },
+  {
+    id: 24, emoji: '🛒',
+    ar: { title: 'المادية والاستهلاك', desc: 'المادية والاستهلاك المفرط يفرغان الحياة من معناها. الإسلام يدعو للقناعة والزهد فيما لا ينفع. السعادة في الإيمان لا في تكديس الأموال والممتلكات.', verse: 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ', action: 'تخلص من شيء لا تحتاجه وتبرع به لمحتاج' },
+    en: { title: 'Materialism and Consumerism', desc: 'Materialism and excessive consumption empty life of meaning. Islam calls for contentment and detachment from what brings no benefit. Happiness lies in faith, not in hoarding wealth and possessions.', verse: 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ', action: 'Get rid of something you do not need and donate it to someone in need' },
+    fr: { title: 'Materialisme et Consumerisme', desc: 'Le materialisme et la consommation excessive vident la vie de son sens. L\'Islam appelle a la contentement et au detachement de ce qui ne profite pas. Le bonheur reside dans la foi, pas dans l\'accumulation de richesses.', verse: 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ', action: 'Debarrassez-vous de quelque chose dont vous n\'avez pas besoin et donnez-le a quelqu\'un dans le besoin' }
+  },
+  {
+    id: 25, emoji: '🪞',
+    ar: { title: 'أزمة الهوية', desc: 'كثير من المسلمين يعانون من أزمة هوية بين الانتماء لحضارتهم والانجذاب للثقافة الغربية. الإسلام يقدم هوية واضحة تجمع بين الأصالة والمعاصرة.', verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ', action: 'اكتب ثلاث قيم إسلامية تفتخر بها وتعيشها يومياً' },
+    en: { title: 'The Identity Crisis', desc: 'Many Muslims suffer from an identity crisis between belonging to their civilization and being attracted to Western culture. Islam offers a clear identity that combines authenticity with modernity.', verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ', action: 'Write down three Islamic values you are proud of and live by daily' },
+    fr: { title: 'La Crise d\'Identite', desc: 'Beaucoup de musulmans souffrent d\'une crise d\'identite entre l\'appartenance a leur civilisation et l\'attraction de la culture occidentale. L\'Islam offre une identite claire qui combine authenticite et modernite.', verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ', action: 'Ecrivez trois valeurs islamiques dont vous etes fier et que vous vivez quotidiennement' }
   }
 ];
 
@@ -265,6 +295,60 @@ const REFLECTIONS = [
     ar: { title: 'الأمل والعمل', problem: 'اليأس يشل حركة الإصلاح', solution: 'التفاؤل بوعد الله مع العمل الدؤوب هو طريق النهضة', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'آل عمران ٣: ١٣٩' },
     en: { title: 'Hope and Action', problem: 'Despair paralyzes the reform movement', solution: 'Optimism in God\'s promise combined with persistent work is the path to revival', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'Al-Imran 3:139' },
     fr: { title: 'Espoir et Action', problem: 'Le desespoir paralyse le mouvement de reforme', solution: 'L\'optimisme en la promesse de Dieu combine au travail persistant est le chemin de la renaissance', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'Al-Imran 3:139' }
+  },
+  {
+    emoji: '📱',
+    ar: { title: 'وسائل التواصل: سلاح ذو حدين',
+      problem: 'وسائل التواصل الاجتماعي أصبحت منصة للشائعات والفتن والتنمر بدل نشر العلم والخير',
+      solution: 'الغزالي يدعو للتثبت من كل خبر قبل نشره واستخدام هذه الأدوات في نشر العلم النافع والدعوة بالحكمة',
+      verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا',
+      verseRef: 'الحجرات ٤٩: ٦' },
+    en: { title: 'Social Media: A Double-Edged Sword',
+      problem: 'Social media has become a platform for rumors, discord, and bullying instead of spreading knowledge and goodness',
+      solution: 'Al-Ghazali calls for verifying every news before sharing it and using these tools to spread beneficial knowledge and wise preaching',
+      verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا',
+      verseRef: 'Al-Hujurat 49:6' },
+    fr: { title: 'Reseaux Sociaux : Arme a Double Tranchant',
+      problem: 'Les reseaux sociaux sont devenus une plateforme de rumeurs, de discorde et de harcelement au lieu de diffuser le savoir',
+      solution: 'Al-Ghazali appelle a verifier chaque nouvelle avant de la partager et a utiliser ces outils pour repandre le savoir utile',
+      verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا',
+      verseRef: 'Al-Hujurat 49:6' }
+  },
+  {
+    emoji: '🪞',
+    ar: { title: 'أزمة الهوية والانتماء',
+      problem: 'المسلمون في العصر الحديث يعانون من تمزق بين حضارتهم والانجذاب للنموذج الغربي',
+      solution: 'الإسلام يقدم هوية واضحة تجمع بين الأصالة والمعاصرة. الحل في فهم الذات قبل محاكاة الآخر',
+      verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ',
+      verseRef: 'آل عمران ٣: ١١٠' },
+    en: { title: 'Identity and Belonging Crisis',
+      problem: 'Muslims in the modern era suffer from a split between their civilization and attraction to the Western model',
+      solution: 'Islam offers a clear identity combining authenticity with modernity. The solution is understanding oneself before imitating others',
+      verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ',
+      verseRef: 'Al Imran 3:110' },
+    fr: { title: 'Crise d\'Identite et d\'Appartenance',
+      problem: 'Les musulmans a l\'ere moderne souffrent d\'un tiraillement entre leur civilisation et l\'attraction du modele occidental',
+      solution: 'L\'Islam offre une identite claire combinant authenticite et modernite. La solution est de se comprendre soi-meme avant d\'imiter les autres',
+      verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ',
+      verseRef: 'Al Imran 3:110' }
+  },
+  {
+    emoji: '🛒',
+    ar: { title: 'المادية تقتل الروح',
+      problem: 'الاستهلاك المفرط وحب المال يفرغان الحياة من المعنى ويبعدان عن الله',
+      solution: 'القناعة كنز لا يفنى. الغزالي يدعو للزهد فيما لا ينفع والعمل فيما يقرب من الله',
+      verse: 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ',
+      verseRef: 'آل عمران ٣: ١٤' },
+    en: { title: 'Materialism Kills the Spirit',
+      problem: 'Excessive consumption and love of money empty life of meaning and distance one from God',
+      solution: 'Contentment is an inexhaustible treasure. Al-Ghazali calls for detachment from what brings no benefit and working on what brings one closer to God',
+      verse: 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ',
+      verseRef: 'Al Imran 3:14' },
+    fr: { title: 'Le Materialisme Tue l\'Esprit',
+      problem: 'La consommation excessive et l\'amour de l\'argent vident la vie de sens et eloignent de Dieu',
+      solution: 'Le contentement est un tresor inepuisable. Al-Ghazali appelle au detachement de ce qui ne profite pas et au travail sur ce qui rapproche de Dieu',
+      verse: 'زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ',
+      verseRef: 'Al Imran 3:14' }
   }
 ];
 
@@ -291,7 +375,10 @@ const QUIZ = [
   { ar: 'هل العلم الشرعي والعلم الدنيوي متكاملان؟', en: 'Are religious and worldly knowledge complementary?', fr: 'Le savoir religieux et mondain sont-ils complementaires ?' },
   { ar: 'هل الخرافات جزء من الإسلام الصحيح؟', en: 'Are superstitions part of true Islam?', fr: 'Les superstitions font-elles partie du vrai Islam ?' },
   { ar: 'هل الشورى أساس الحكم الرشيد في الإسلام؟', en: 'Is consultation the basis of good governance in Islam?', fr: 'La consultation est-elle la base de la bonne gouvernance en Islam ?' },
-  { ar: 'هل اليأس من رحمة الله جائز في الإسلام؟', en: 'Is despair of God\'s mercy permissible in Islam?', fr: 'Le desespoir de la misericorde de Dieu est-il permis en Islam ?' }
+  { ar: 'هل اليأس من رحمة الله جائز في الإسلام؟', en: 'Is despair of God\'s mercy permissible in Islam?', fr: 'Le desespoir de la misericorde de Dieu est-il permis en Islam ?' },
+  { ar: 'هل وسائل التواصل الاجتماعي تقرّب المسلمين أم تفرقهم؟', en: 'Do social media platforms bring Muslims closer or divide them?', fr: 'Les reseaux sociaux rapprochent-ils les musulmans ou les divisent-ils ?' },
+  { ar: 'هل فقدان اللغة العربية يضعف فهم المسلمين لدينهم؟', en: 'Does losing the Arabic language weaken Muslims\' understanding of their religion?', fr: 'La perte de la langue arabe affaiblit-elle la comprehension des musulmans de leur religion ?' },
+  { ar: 'هل المادية والاستهلاك المفرط من أسباب ضعف الأمة؟', en: 'Are materialism and excessive consumption among the causes of the Ummah\'s weakness?', fr: 'Le materialisme et la consommation excessive sont-ils parmi les causes de la faiblesse de l\'Oumma ?' }
 ];
 
 // ═══════════════ DUAS DATA (6 items) ═══════════════
@@ -301,7 +388,9 @@ const DUAS = [
   { ar: { label: 'دعاء الصبر', text: 'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا', tr: 'ربنا أفرغ علينا صبراً وثبت أقدامنا' }, en: { label: 'Dua for Patience', text: 'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا', tr: 'Our Lord, pour upon us patience and plant firmly our feet' }, fr: { label: 'Dua pour la Patience', text: 'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا', tr: 'Seigneur, accorde-nous patience et affermis nos pas' } },
   { ar: { label: 'دعاء التوكل', text: 'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ', tr: 'حسبي الله لا إله إلا هو عليه توكلت' }, en: { label: 'Dua of Trust', text: 'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ', tr: 'God is sufficient for me. There is no god but Him. In Him I trust' }, fr: { label: 'Dua de Confiance', text: 'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ', tr: 'Dieu me suffit. Il n\'y a de dieu que Lui. En Lui je place ma confiance' } },
   { ar: { label: 'دعاء الثبات', text: 'رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا', tr: 'ربنا لا تزغ قلوبنا بعد إذ هديتنا' }, en: { label: 'Dua for Steadfastness', text: 'رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا', tr: 'Our Lord, do not let our hearts deviate after You guided us' }, fr: { label: 'Dua pour la Fermete', text: 'رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا', tr: 'Seigneur, ne fais pas devier nos coeurs apres nous avoir guides' } },
-  { ar: { label: 'دعاء النصر', text: 'رَبَّنَا انصُرْنَا عَلَى الْقَوْمِ الظَّالِمِينَ', tr: 'ربنا انصرنا على القوم الظالمين' }, en: { label: 'Dua for Victory', text: 'رَبَّنَا انصُرْنَا عَلَى الْقَوْمِ الظَّالِمِينَ', tr: 'Our Lord, give us victory over the wrongdoing people' }, fr: { label: 'Dua pour la Victoire', text: 'رَبَّنَا انصُرْنَا عَلَى الْقَوْمِ الظَّالِمِينَ', tr: 'Seigneur, donne-nous la victoire sur les injustes' } }
+  { ar: { label: 'دعاء النصر', text: 'رَبَّنَا انصُرْنَا عَلَى الْقَوْمِ الظَّالِمِينَ', tr: 'ربنا انصرنا على القوم الظالمين' }, en: { label: 'Dua for Victory', text: 'رَبَّنَا انصُرْنَا عَلَى الْقَوْمِ الظَّالِمِينَ', tr: 'Our Lord, give us victory over the wrongdoing people' }, fr: { label: 'Dua pour la Victoire', text: 'رَبَّنَا انصُرْنَا عَلَى الْقَوْمِ الظَّالِمِينَ', tr: 'Seigneur, donne-nous la victoire sur les injustes' } },
+  { ar: { label: 'دعاء الفرج', text: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ', tr: 'اللهم إني أسألك العافية في الدنيا والآخرة' }, en: { label: 'Dua for Wellbeing', text: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ', tr: 'O God, I ask You for wellbeing in this world and the Hereafter' }, fr: { label: 'Dua pour le Bien-etre', text: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ', tr: 'O Dieu, je Te demande le bien-etre dans ce monde et dans l\'Au-dela' } },
+  { ar: { label: 'دعاء الإصلاح', text: 'رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ', tr: 'ربنا اغفر لنا ذنوبنا وإسرافنا في أمرنا وثبت أقدامنا' }, en: { label: 'Dua for Reform', text: 'رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ', tr: 'Our Lord, forgive us our sins and our excess in our affairs, plant firmly our feet, and give us victory' }, fr: { label: 'Dua pour la Reforme', text: 'رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ', tr: 'Notre Seigneur, pardonne-nous nos peches et notre exces dans nos affaires, affermis nos pas et donne-nous la victoire' } }
 ];
 
 // ═══════════════ STATE ═══════════════
