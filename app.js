@@ -108,51 +108,51 @@ const T = {
 const CARDS = [
   {
     id: 1, emoji: '🔥',
-    ar: { title: 'ضعف الإيمان', desc: 'ضعف الإيمان هو أصل كل المشكلات. عندما يبتعد القلب عن الله تنهار كل الدفاعات. الغزالي يرى أن تقوية الإيمان تبدأ بالعودة للقرآن والذكر.', verse: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ', action: 'اقرأ صفحة من القرآن اليوم وتدبر معانيها' },
-    en: { title: 'Weak Faith', desc: 'Weak faith is the root of all problems. When the heart moves away from God, all defenses collapse. Al-Ghazali sees that strengthening faith begins with returning to the Quran and remembrance.', verse: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ', action: 'Read a page from the Quran today and reflect on its meanings' },
-    fr: { title: 'Faiblesse de la Foi', desc: 'La faiblesse de la foi est la racine de tous les problemes. Quand le coeur s\'eloigne de Dieu, toutes les defenses s\'effondrent. Al-Ghazali voit que renforcer la foi commence par le retour au Coran.', verse: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ', action: 'Lisez une page du Coran aujourd\'hui et reflechissez a ses sens' }
+    ar: { title: 'ضعف الإيمان', desc: 'يعالج الغزالي: ضعف الإيمان هو أصل كل المشكلات. عندما يبتعد القلب عن الله تنهار كل الدفاعات. الغزالي يرى أن تقوية الإيمان تبدأ بالعودة للقرآن والذكر.', verse: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ', action: 'اقرأ صفحة من القرآن اليوم وتدبر معانيها' },
+    en: { title: 'Weak Faith', desc: 'Al-Ghazali addresses: Weak faith is the root of all problems. When the heart moves away from God, all defenses collapse. Al-Ghazali sees that strengthening faith begins with returning to the Quran and remembrance.', verse: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ', action: 'Read a page from the Quran today and reflect on its meanings' },
+    fr: { title: 'Faiblesse de la Foi', desc: 'Al-Ghazali aborde: La faiblesse de la foi est la racine de tous les problemes. Quand le coeur s\'eloigne de Dieu, toutes les defenses s\'effondrent. Al-Ghazali voit que renforcer la foi commence par le retour au Coran.', verse: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ', action: 'Lisez une page du Coran aujourd\'hui et reflechissez a ses sens' }
   },
   {
     id: 2, emoji: '🎭',
-    ar: { title: 'الفجوة بين القول والعمل', desc: 'كثير من المسلمين يقولون ما لا يفعلون. هذه الفجوة تضعف الأمة وتفقد الدعوة مصداقيتها. الإسلام دين عمل لا كلام فارغ.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ', action: 'طبّق شيئاً واحداً تتحدث عنه دائماً' },
-    en: { title: 'Gap Between Words and Actions', desc: 'Many Muslims say what they do not do. This gap weakens the Ummah and robs the message of credibility. Islam is a religion of action, not empty talk.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ', action: 'Apply one thing you always talk about' },
-    fr: { title: 'Ecart entre Paroles et Actes', desc: 'Beaucoup de musulmans disent ce qu\'ils ne font pas. Cet ecart affaiblit l\'Oumma et prive le message de credibilite. L\'Islam est une religion d\'action.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ', action: 'Appliquez une chose dont vous parlez toujours' }
+    ar: { title: 'الفجوة بين القول والعمل', desc: 'يعالج الغزالي: كثير من المسلمين يقولون ما لا يفعلون. هذه الفجوة تضعف الأمة وتفقد الدعوة مصداقيتها. الإسلام دين عمل لا كلام فارغ.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ', action: 'طبّق شيئاً واحداً تتحدث عنه دائماً' },
+    en: { title: 'Gap Between Words and Actions', desc: 'Al-Ghazali addresses: Many Muslims say what they do not do. This gap weakens the Ummah and robs the message of credibility. Islam is a religion of action, not empty talk.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ', action: 'Apply one thing you always talk about' },
+    fr: { title: 'Ecart entre Paroles et Actes', desc: 'Al-Ghazali aborde: Beaucoup de musulmans disent ce qu\'ils ne font pas. Cet ecart affaiblit l\'Oumma et prive le message de credibilite. L\'Islam est une religion d\'action.', verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ', action: 'Appliquez une chose dont vous parlez toujours' }
   },
   {
     id: 3, emoji: '📚',
-    ar: { title: 'الجهل بالدين', desc: 'الجهل بالإسلام الصحيح يجعل المسلمين فريسة للتطرف والخرافات. العلم الشرعي الصحيح هو الحل الأول لكل مشكلة.', verse: 'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', action: 'تعلم حكماً شرعياً جديداً اليوم' },
-    en: { title: 'Ignorance of Religion', desc: 'Ignorance of true Islam makes Muslims prey to extremism and superstitions. Correct religious knowledge is the first solution to every problem.', verse: 'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', action: 'Learn a new religious ruling today' },
-    fr: { title: 'Ignorance de la Religion', desc: 'L\'ignorance du vrai Islam rend les musulmans proie de l\'extremisme et des superstitions. Le savoir religieux correct est la premiere solution a tout probleme.', verse: 'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', action: 'Apprenez un nouveau jugement religieux aujourd\'hui' }
+    ar: { title: 'الجهل بالدين', desc: 'يعالج الغزالي: الجهل بالإسلام الصحيح يجعل المسلمين فريسة للتطرف والخرافات. العلم الشرعي الصحيح هو الحل الأول لكل مشكلة.', verse: 'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', action: 'تعلم حكماً شرعياً جديداً اليوم' },
+    en: { title: 'Ignorance of Religion', desc: 'Al-Ghazali addresses: Ignorance of true Islam makes Muslims prey to extremism and superstitions. Correct religious knowledge is the first solution to every problem.', verse: 'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', action: 'Learn a new religious ruling today' },
+    fr: { title: 'Ignorance de la Religion', desc: 'Al-Ghazali aborde: L\'ignorance du vrai Islam rend les musulmans proie de l\'extremisme et des superstitions. Le savoir religieux correct est la premiere solution a tout probleme.', verse: 'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', action: 'Apprenez un nouveau jugement religieux aujourd\'hui' }
   },
   {
     id: 4, emoji: '⚔️',
     ar: { title: 'التعصب والتشدد', desc: 'التشدد في الدين يشوه صورة الإسلام ويبعد الناس عنه. الغزالي يدعو للوسطية والاعتدال كما أمر الله.', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', action: 'كن متسامحاً في حوارك مع المخالفين' },
-    en: { title: 'Fanaticism and Extremism', desc: 'Extremism in religion distorts the image of Islam and drives people away. Al-Ghazali calls for moderation as God commanded.', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', action: 'Be tolerant in your dialogue with those who disagree' },
-    fr: { title: 'Fanatisme et Extremisme', desc: 'L\'extremisme dans la religion deforme l\'image de l\'Islam et eloigne les gens. Al-Ghazali appelle a la moderation comme Dieu l\'a ordonne.', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', action: 'Soyez tolerant dans votre dialogue avec ceux qui sont en desaccord' }
+    en: { title: 'Fanaticism and Extremism', desc: 'Al-Ghazali addresses: Extremism in religion distorts the image of Islam and drives people away. Al-Ghazali calls for moderation as God commanded.', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', action: 'Be tolerant in your dialogue with those who disagree' },
+    fr: { title: 'Fanatisme et Extremisme', desc: 'Al-Ghazali aborde: L\'extremisme dans la religion deforme l\'image de l\'Islam et eloigne les gens. Al-Ghazali appelle a la moderation comme Dieu l\'a ordonne.', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', action: 'Soyez tolerant dans votre dialogue avec ceux qui sont en desaccord' }
   },
   {
     id: 5, emoji: '💔',
-    ar: { title: 'الفرقة والانقسام', desc: 'تفرق المسلمين إلى فرق وأحزاب متناحرة هو من أخطر المشكلات. الوحدة قوة والفرقة ضعف.', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', action: 'تواصل مع مسلم من خلفية مختلفة' },
-    en: { title: 'Division and Disunity', desc: 'Muslims splitting into warring factions is among the gravest problems. Unity is strength and division is weakness.', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', action: 'Connect with a Muslim from a different background' },
-    fr: { title: 'Division et Desunion', desc: 'La division des musulmans en factions rivales est l\'un des problemes les plus graves. L\'unite est force et la division est faiblesse.', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', action: 'Connectez-vous avec un musulman d\'un contexte different' }
+    ar: { title: 'الفرقة والانقسام', desc: 'يعالج الغزالي: تفرق المسلمين إلى فرق وأحزاب متناحرة هو من أخطر المشكلات. الوحدة قوة والفرقة ضعف.', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', action: 'تواصل مع مسلم من خلفية مختلفة' },
+    en: { title: 'Division and Disunity', desc: 'Al-Ghazali addresses: Muslims splitting into warring factions is among the gravest problems. Unity is strength and division is weakness.', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', action: 'Connect with a Muslim from a different background' },
+    fr: { title: 'Division et Desunion', desc: 'Al-Ghazali aborde: La division des musulmans en factions rivales est l\'un des problemes les plus graves. L\'unite est force et la division est faiblesse.', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', action: 'Connectez-vous avec un musulman d\'un contexte different' }
   },
   {
     id: 6, emoji: '🧊',
-    ar: { title: 'الجمود الفكري', desc: 'إغلاق باب الاجتهاد وتقليد الآباء بلا تفكير أوقع الأمة في تخلف. نحتاج فقهاً معاصراً يواكب العصر.', verse: 'قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا', action: 'اقرأ رأياً فقهياً معاصراً في مسألة تهمك' },
-    en: { title: 'Intellectual Stagnation', desc: 'Closing the door of ijtihad and blind imitation left the Ummah in stagnation. We need contemporary jurisprudence for our times.', verse: 'قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا', action: 'Read a contemporary juristic opinion on a relevant matter' },
-    fr: { title: 'Stagnation Intellectuelle', desc: 'La fermeture de la porte de l\'ijtihad et l\'imitation aveugle ont laisse l\'Oumma dans la stagnation. Nous avons besoin d\'une jurisprudence contemporaine.', verse: 'قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا', action: 'Lisez un avis juridique contemporain sur un sujet pertinent' }
+    ar: { title: 'الجمود الفكري', desc: 'يعالج الغزالي: إغلاق باب الاجتهاد وتقليد الآباء بلا تفكير أوقع الأمة في تخلف. نحتاج فقهاً معاصراً يواكب العصر.', verse: 'قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا', action: 'اقرأ رأياً فقهياً معاصراً في مسألة تهمك' },
+    en: { title: 'Intellectual Stagnation', desc: 'Al-Ghazali addresses: Closing the door of ijtihad and blind imitation left the Ummah in stagnation. We need contemporary jurisprudence for our times.', verse: 'قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا', action: 'Read a contemporary juristic opinion on a relevant matter' },
+    fr: { title: 'Stagnation Intellectuelle', desc: 'Al-Ghazali aborde: La fermeture de la porte de l\'ijtihad et l\'imitation aveugle ont laisse l\'Oumma dans la stagnation. Nous avons besoin d\'une jurisprudence contemporaine.', verse: 'قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا', action: 'Lisez un avis juridique contemporain sur un sujet pertinent' }
   },
   {
     id: 7, emoji: '🏫',
-    ar: { title: 'تخلف التعليم', desc: 'المسلمون تخلوا عن ريادتهم العلمية. الحل في إصلاح التعليم وربطه بروح الإسلام مع الانفتاح على العلوم الحديثة.', verse: 'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', action: 'ساهم في تعليم شخص شيئاً مفيداً اليوم' },
-    en: { title: 'Educational Decline', desc: 'Muslims abandoned their scientific leadership. The solution is reforming education, connecting it to Islam\'s spirit while being open to modern sciences.', verse: 'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', action: 'Help teach someone something useful today' },
-    fr: { title: 'Declin Educatif', desc: 'Les musulmans ont abandonne leur leadership scientifique. La solution est de reformer l\'education en la reliant a l\'esprit de l\'Islam tout en s\'ouvrant aux sciences modernes.', verse: 'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', action: 'Aidez a enseigner quelque chose d\'utile a quelqu\'un aujourd\'hui' }
+    ar: { title: 'تخلف التعليم', desc: 'يعالج الغزالي: المسلمون تخلوا عن ريادتهم العلمية. الحل في إصلاح التعليم وربطه بروح الإسلام مع الانفتاح على العلوم الحديثة.', verse: 'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', action: 'ساهم في تعليم شخص شيئاً مفيداً اليوم' },
+    en: { title: 'Educational Decline', desc: 'Al-Ghazali addresses: Muslims abandoned their scientific leadership. The solution is reforming education, connecting it to Islam\'s spirit while being open to modern sciences.', verse: 'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', action: 'Help teach someone something useful today' },
+    fr: { title: 'Declin Educatif', desc: 'Al-Ghazali aborde: Les musulmans ont abandonne leur leadership scientifique. La solution est de reformer l\'education en la reliant a l\'esprit de l\'Islam tout en s\'ouvrant aux sciences modernes.', verse: 'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', action: 'Aidez a enseigner quelque chose d\'utile a quelqu\'un aujourd\'hui' }
   },
   {
     id: 8, emoji: '💰',
-    ar: { title: 'الفقر والتخلف الاقتصادي', desc: 'الفقر عدو الإيمان. الإسلام يحث على العمل والإنتاج والعدالة الاقتصادية. التواكل ليس توكلاً.', verse: 'هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا', action: 'أتقن عملك اليوم وأدِّ واجبك بإخلاص' },
-    en: { title: 'Poverty and Economic Decline', desc: 'Poverty is the enemy of faith. Islam encourages work, productivity, and economic justice. Passivity is not trust in God.', verse: 'هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا', action: 'Do your best at work today with sincerity' },
-    fr: { title: 'Pauvrete et Declin Economique', desc: 'La pauvrete est l\'ennemi de la foi. L\'Islam encourage le travail, la productivite et la justice economique. La passivite n\'est pas la confiance en Dieu.', verse: 'هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا', action: 'Faites de votre mieux au travail aujourd\'hui avec sincerite' }
+    ar: { title: 'الفقر والتخلف الاقتصادي', desc: 'يعالج الغزالي: الفقر عدو الإيمان. الإسلام يحث على العمل والإنتاج والعدالة الاقتصادية. التواكل ليس توكلاً.', verse: 'هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا', action: 'أتقن عملك اليوم وأدِّ واجبك بإخلاص' },
+    en: { title: 'Poverty and Economic Decline', desc: 'Al-Ghazali addresses: Poverty is the enemy of faith. Islam encourages work, productivity, and economic justice. Passivity is not trust in God.', verse: 'هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا', action: 'Do your best at work today with sincerity' },
+    fr: { title: 'Pauvrete et Declin Economique', desc: 'Al-Ghazali aborde: La pauvrete est l\'ennemi de la foi. L\'Islam encourage le travail, la productivite et la justice economique. La passivite n\'est pas la confiance en Dieu.', verse: 'هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا', action: 'Faites de votre mieux au travail aujourd\'hui avec sincerite' }
   },
   {
     id: 9, emoji: '👫',
@@ -262,54 +262,54 @@ const CARDS = [
 const REFLECTIONS = [
   {
     emoji: '🔍',
-    ar: { title: 'تشخيص المرض قبل العلاج', problem: 'المسلمون يعالجون الأعراض ويتجاهلون الأسباب', solution: 'الغزالي يدعو لتشخيص جذور المشكلات قبل البحث عن حلول سطحية', verse: 'قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا', verseRef: 'العنكبوت ٢٩: ٢٠' },
-    en: { title: 'Diagnose Before Treating', problem: 'Muslims treat symptoms and ignore causes', solution: 'Al-Ghazali calls for diagnosing root causes before seeking superficial solutions', verse: 'قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا', verseRef: 'Al-Ankabut 29:20' },
-    fr: { title: 'Diagnostiquer Avant de Traiter', problem: 'Les musulmans traitent les symptomes et ignorent les causes', solution: 'Al-Ghazali appelle a diagnostiquer les causes profondes avant de chercher des solutions superficielles', verse: 'قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا', verseRef: 'Al-Ankabut 29:20' }
+    ar: { title: 'تشخيص المرض قبل العلاج', problem: 'يشخّص الغزالي: المسلمون يعالجون الأعراض ويتجاهلون الأسباب', solution: 'الغزالي يدعو لتشخيص جذور المشكلات قبل البحث عن حلول سطحية', verse: 'قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا', verseRef: 'العنكبوت ٢٩: ٢٠' },
+    en: { title: 'Diagnose Before Treating', problem: 'Al-Ghazali diagnoses: Muslims treat symptoms and ignore causes', solution: 'Al-Ghazali calls for diagnosing root causes before seeking superficial solutions', verse: 'قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا', verseRef: 'Al-Ankabut 29:20' },
+    fr: { title: 'Diagnostiquer Avant de Traiter', problem: 'Al-Ghazali diagnostique: Les musulmans traitent les symptomes et ignorent les causes', solution: 'Al-Ghazali appelle a diagnostiquer les causes profondes avant de chercher des solutions superficielles', verse: 'قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا', verseRef: 'Al-Ankabut 29:20' }
   },
   {
     emoji: '🌊',
-    ar: { title: 'التغيير يبدأ من الداخل', problem: 'نطالب بتغيير العالم ولا نغير أنفسنا', solution: 'إصلاح الفرد هو الخطوة الأولى لإصلاح الأمة. كن التغيير الذي تريده.', verse: 'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنفُسِهِمْ', verseRef: 'الرعد ١٣: ١١' },
-    en: { title: 'Change Starts Within', problem: 'We demand the world change but do not change ourselves', solution: 'Reforming the individual is the first step to reforming the Ummah. Be the change you want to see.', verse: 'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنفُسِهِمْ', verseRef: 'Ar-Ra\'d 13:11' },
-    fr: { title: 'Le Changement Commence de l\'Interieur', problem: 'Nous exigeons que le monde change mais ne changeons pas nous-memes', solution: 'Reformer l\'individu est la premiere etape pour reformer l\'Oumma. Soyez le changement que vous voulez voir.', verse: 'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنفُسِهِمْ', verseRef: 'Ar-Ra\'d 13:11' }
+    ar: { title: 'التغيير يبدأ من الداخل', problem: 'يشخّص الغزالي: نطالب بتغيير العالم ولا نغير أنفسنا', solution: 'يقترح الغزالي: إصلاح الفرد هو الخطوة الأولى لإصلاح الأمة. كن التغيير الذي تريده.', verse: 'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنفُسِهِمْ', verseRef: 'الرعد ١٣: ١١' },
+    en: { title: 'Change Starts Within', problem: 'Al-Ghazali diagnoses: We demand the world change but do not change ourselves', solution: 'Al-Ghazali proposes: Reforming the individual is the first step to reforming the Ummah. Be the change you want to see.', verse: 'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنفُسِهِمْ', verseRef: 'Ar-Ra\'d 13:11' },
+    fr: { title: 'Le Changement Commence de l\'Interieur', problem: 'Al-Ghazali diagnostique: Nous exigeons que le monde change mais ne changeons pas nous-memes', solution: 'Al-Ghazali propose: Reformer l\'individu est la premiere etape pour reformer l\'Oumma. Soyez le changement que vous voulez voir.', verse: 'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنفُسِهِمْ', verseRef: 'Ar-Ra\'d 13:11' }
   },
   {
     emoji: '⚖️',
-    ar: { title: 'الوسطية هي الحل', problem: 'التطرف يميناً أو يساراً يدمر الأمة', solution: 'الوسطية الإسلامية ليست ضعفاً بل هي قوة الاعتدال والحكمة', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', verseRef: 'البقرة ٢: ١٤٣' },
-    en: { title: 'Moderation Is the Solution', problem: 'Extremism in either direction destroys the Ummah', solution: 'Islamic moderation is not weakness but the strength of balance and wisdom', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', verseRef: 'Al-Baqarah 2:143' },
-    fr: { title: 'La Moderation Est la Solution', problem: 'L\'extremisme dans les deux sens detruit l\'Oumma', solution: 'La moderation islamique n\'est pas une faiblesse mais la force de l\'equilibre et de la sagesse', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', verseRef: 'Al-Baqarah 2:143' }
+    ar: { title: 'الوسطية هي الحل', problem: 'يشخّص الغزالي: التطرف يميناً أو يساراً يدمر الأمة', solution: 'يقترح الغزالي: الوسطية الإسلامية ليست ضعفاً بل هي قوة الاعتدال والحكمة', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', verseRef: 'البقرة ٢: ١٤٣' },
+    en: { title: 'Moderation Is the Solution', problem: 'Al-Ghazali diagnoses: Extremism in either direction destroys the Ummah', solution: 'Al-Ghazali proposes: Islamic moderation is not weakness but the strength of balance and wisdom', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', verseRef: 'Al-Baqarah 2:143' },
+    fr: { title: 'La Moderation Est la Solution', problem: 'Al-Ghazali diagnostique: L\'extremisme dans les deux sens detruit l\'Oumma', solution: 'Al-Ghazali propose: La moderation islamique n\'est pas une faiblesse mais la force de l\'equilibre et de la sagesse', verse: 'وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', verseRef: 'Al-Baqarah 2:143' }
   },
   {
     emoji: '🔑',
-    ar: { title: 'العلم مفتاح الحلول', problem: 'الجهل يولد التعصب والخرافات والتخلف', solution: 'العلم الشرعي والعلم الدنيوي معاً هما سلاح الأمة', verse: 'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', verseRef: 'الزمر ٣٩: ٩' },
-    en: { title: 'Knowledge Is the Key', problem: 'Ignorance breeds fanaticism, superstition, and backwardness', solution: 'Religious knowledge and worldly knowledge together are the Ummah\'s weapon', verse: 'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', verseRef: 'Az-Zumar 39:9' },
-    fr: { title: 'Le Savoir Est la Cle', problem: 'L\'ignorance engendre le fanatisme, la superstition et le retard', solution: 'Le savoir religieux et le savoir mondain ensemble sont l\'arme de l\'Oumma', verse: 'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', verseRef: 'Az-Zumar 39:9' }
+    ar: { title: 'العلم مفتاح الحلول', problem: 'يشخّص الغزالي: الجهل يولد التعصب والخرافات والتخلف', solution: 'يقترح الغزالي: العلم الشرعي والعلم الدنيوي معاً هما سلاح الأمة', verse: 'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', verseRef: 'الزمر ٣٩: ٩' },
+    en: { title: 'Knowledge Is the Key', problem: 'Al-Ghazali diagnoses: Ignorance breeds fanaticism, superstition, and backwardness', solution: 'Al-Ghazali proposes: Religious knowledge and worldly knowledge together are the Ummah\'s weapon', verse: 'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', verseRef: 'Az-Zumar 39:9' },
+    fr: { title: 'Le Savoir Est la Cle', problem: 'Al-Ghazali diagnostique: L\'ignorance engendre le fanatisme, la superstition et le retard', solution: 'Al-Ghazali propose: Le savoir religieux et le savoir mondain ensemble sont l\'arme de l\'Oumma', verse: 'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ', verseRef: 'Az-Zumar 39:9' }
   },
   {
     emoji: '🤝',
-    ar: { title: 'الوحدة قبل كل شيء', problem: 'الخلافات الداخلية تستنزف طاقة الأمة', solution: 'توحيد الصفوف حول المشتركات أهم من الانشغال بالخلافات الفرعية', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', verseRef: 'آل عمران ٣: ١٠٣' },
-    en: { title: 'Unity Before Everything', problem: 'Internal disputes drain the Ummah\'s energy', solution: 'Uniting around common ground is more important than dwelling on secondary differences', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', verseRef: 'Al-Imran 3:103' },
-    fr: { title: 'L\'Unite Avant Tout', problem: 'Les disputes internes epuisent l\'energie de l\'Oumma', solution: 'S\'unir autour des points communs est plus important que s\'attarder sur les differences secondaires', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', verseRef: 'Al-Imran 3:103' }
+    ar: { title: 'الوحدة قبل كل شيء', problem: 'يشخّص الغزالي: الخلافات الداخلية تستنزف طاقة الأمة', solution: 'يقترح الغزالي: توحيد الصفوف حول المشتركات أهم من الانشغال بالخلافات الفرعية', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', verseRef: 'آل عمران ٣: ١٠٣' },
+    en: { title: 'Unity Before Everything', problem: 'Al-Ghazali diagnoses: Internal disputes drain the Ummah\'s energy', solution: 'Al-Ghazali proposes: Uniting around common ground is more important than dwelling on secondary differences', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', verseRef: 'Al-Imran 3:103' },
+    fr: { title: 'L\'Unite Avant Tout', problem: 'Al-Ghazali diagnostique: Les disputes internes epuisent l\'energie de l\'Oumma', solution: 'Al-Ghazali propose: S\'unir autour des points communs est plus important que s\'attarder sur les differences secondaires', verse: 'وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا', verseRef: 'Al-Imran 3:103' }
   },
   {
     emoji: '🌱',
-    ar: { title: 'الأمل والعمل', problem: 'اليأس يشل حركة الإصلاح', solution: 'التفاؤل بوعد الله مع العمل الدؤوب هو طريق النهضة', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'آل عمران ٣: ١٣٩' },
-    en: { title: 'Hope and Action', problem: 'Despair paralyzes the reform movement', solution: 'Optimism in God\'s promise combined with persistent work is the path to revival', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'Al-Imran 3:139' },
-    fr: { title: 'Espoir et Action', problem: 'Le desespoir paralyse le mouvement de reforme', solution: 'L\'optimisme en la promesse de Dieu combine au travail persistant est le chemin de la renaissance', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'Al-Imran 3:139' }
+    ar: { title: 'الأمل والعمل', problem: 'يشخّص الغزالي: اليأس يشل حركة الإصلاح', solution: 'يقترح الغزالي: التفاؤل بوعد الله مع العمل الدؤوب هو طريق النهضة', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'آل عمران ٣: ١٣٩' },
+    en: { title: 'Hope and Action', problem: 'Al-Ghazali diagnoses: Despair paralyzes the reform movement', solution: 'Al-Ghazali proposes: Optimism in God\'s promise combined with persistent work is the path to revival', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'Al-Imran 3:139' },
+    fr: { title: 'Espoir et Action', problem: 'Al-Ghazali diagnostique: Le desespoir paralyse le mouvement de reforme', solution: 'Al-Ghazali propose: L\'optimisme en la promesse de Dieu combine au travail persistant est le chemin de la renaissance', verse: 'وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ', verseRef: 'Al-Imran 3:139' }
   },
   {
     emoji: '📱',
     ar: { title: 'وسائل التواصل: سلاح ذو حدين',
-      problem: 'وسائل التواصل الاجتماعي أصبحت منصة للشائعات والفتن والتنمر بدل نشر العلم والخير',
+      problem: 'يشخّص الغزالي: وسائل التواصل الاجتماعي أصبحت منصة للشائعات والفتن والتنمر بدل نشر العلم والخير',
       solution: 'الغزالي يدعو للتثبت من كل خبر قبل نشره واستخدام هذه الأدوات في نشر العلم النافع والدعوة بالحكمة',
       verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا',
       verseRef: 'الحجرات ٤٩: ٦' },
     en: { title: 'Social Media: A Double-Edged Sword',
-      problem: 'Social media has become a platform for rumors, discord, and bullying instead of spreading knowledge and goodness',
+      problem: 'Al-Ghazali diagnoses: Social media has become a platform for rumors, discord, and bullying instead of spreading knowledge and goodness',
       solution: 'Al-Ghazali calls for verifying every news before sharing it and using these tools to spread beneficial knowledge and wise preaching',
       verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا',
       verseRef: 'Al-Hujurat 49:6' },
     fr: { title: 'Reseaux Sociaux : Arme a Double Tranchant',
-      problem: 'Les reseaux sociaux sont devenus une plateforme de rumeurs, de discorde et de harcelement au lieu de diffuser le savoir',
+      problem: 'Al-Ghazali diagnostique: Les reseaux sociaux sont devenus une plateforme de rumeurs, de discorde et de harcelement au lieu de diffuser le savoir',
       solution: 'Al-Ghazali appelle a verifier chaque nouvelle avant de la partager et a utiliser ces outils pour repandre le savoir utile',
       verse: 'يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا',
       verseRef: 'Al-Hujurat 49:6' }
@@ -317,18 +317,18 @@ const REFLECTIONS = [
   {
     emoji: '🪞',
     ar: { title: 'أزمة الهوية والانتماء',
-      problem: 'المسلمون في العصر الحديث يعانون من تمزق بين حضارتهم والانجذاب للنموذج الغربي',
-      solution: 'الإسلام يقدم هوية واضحة تجمع بين الأصالة والمعاصرة. الحل في فهم الذات قبل محاكاة الآخر',
+      problem: 'يشخّص الغزالي: المسلمون في العصر الحديث يعانون من تمزق بين حضارتهم والانجذاب للنموذج الغربي',
+      solution: 'يقترح الغزالي: الإسلام يقدم هوية واضحة تجمع بين الأصالة والمعاصرة. الحل في فهم الذات قبل محاكاة الآخر',
       verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ',
       verseRef: 'آل عمران ٣: ١١٠' },
     en: { title: 'Identity and Belonging Crisis',
-      problem: 'Muslims in the modern era suffer from a split between their civilization and attraction to the Western model',
-      solution: 'Islam offers a clear identity combining authenticity with modernity. The solution is understanding oneself before imitating others',
+      problem: 'Al-Ghazali diagnoses: Muslims in the modern era suffer from a split between their civilization and attraction to the Western model',
+      solution: 'Al-Ghazali proposes: Islam offers a clear identity combining authenticity with modernity. The solution is understanding oneself before imitating others',
       verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ',
       verseRef: 'Al Imran 3:110' },
     fr: { title: 'Crise d\'Identite et d\'Appartenance',
-      problem: 'Les musulmans a l\'ere moderne souffrent d\'un tiraillement entre leur civilisation et l\'attraction du modele occidental',
-      solution: 'L\'Islam offre une identite claire combinant authenticite et modernite. La solution est de se comprendre soi-meme avant d\'imiter les autres',
+      problem: 'Al-Ghazali diagnostique: Les musulmans a l\'ere moderne souffrent d\'un tiraillement entre leur civilisation et l\'attraction du modele occidental',
+      solution: 'Al-Ghazali propose: L\'Islam offre une identite claire combinant authenticite et modernite. La solution est de se comprendre soi-meme avant d\'imiter les autres',
       verse: 'كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ',
       verseRef: 'Al Imran 3:110' }
   },
