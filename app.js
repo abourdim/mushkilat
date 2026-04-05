@@ -424,7 +424,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function initSplash() {
   let count = 5;
   const el = document.getElementById('splashCount');
+  if (!el) return;
   const featuresEl = document.getElementById('splashFeatures');
+  if (!featuresEl) return;
   if (featuresEl) {
     featuresEl.innerHTML = T[lang].splashFeatures.map((f, i) =>
       `<div class="splash-feature" style="animation-delay:${0.3 + i * 0.3}s">${f}</div>`
@@ -438,6 +440,7 @@ function initSplash() {
 }
 function dismissSplash() {
   const s = document.getElementById('splash');
+  if (!s) return;
   if (s) { s.classList.add('hidden'); setTimeout(() => s.style.display = 'none', 500); }
   playSound('click');
 }
@@ -464,6 +467,7 @@ function setLang(l) {
   set('habitsReset', t.resetBtn);
   renderHome(); renderCards(); renderReflections(); renderHabits(); renderQuiz(); renderAbout(); renderHelp(); renderDuas();
   const featuresEl = document.getElementById('splashFeatures');
+  if (!featuresEl) return;
   if (featuresEl) {
     featuresEl.innerHTML = T[l].splashFeatures.map((f, i) =>
       `<div class="splash-feature" style="animation-delay:${0.3 + i * 0.3}s">${f}</div>`
@@ -478,6 +482,7 @@ function setTheme(t) {
   localStorage.setItem('mush-theme', t);
   const idx = themes.indexOf(t);
   const el = document.getElementById('themeIcon');
+  if (!el) return;
   if (el) el.textContent = themeIcons[idx];
 }
 function cycleTheme() {
@@ -639,6 +644,7 @@ function renderHabits() {
     </div>`;
   }).join('');
   const streakEl = document.getElementById('streakBadge');
+  if (!streakEl) return;
   if (streakEl) streakEl.innerHTML = streakHTML;
   updateHabitsProgress(habitsState);
 }
@@ -669,7 +675,9 @@ function updateHabitsProgress(hs) {
   const total = HABITS.length;
   const pct = total > 0 ? (done / total * 100) : 0;
   const fill = document.getElementById('habitsFill');
+  if (!fill) return;
   const txt = document.getElementById('habitsText');
+  if (!txt) return;
   if (fill) fill.style.width = pct + '%';
   if (txt) txt.textContent = `${done}/${total}`;
 }
@@ -785,6 +793,7 @@ function submitQuiz() {
     desc = lang === 'ar' ? 'اقرأ البطاقات لتتعرف على المشكلات وحلولها.' : lang === 'fr' ? 'Lisez les cartes pour connaitre les problemes et solutions.' : 'Read the cards to learn about the problems and their solutions.';
   }
   const result = document.getElementById('quizResult');
+  if (!result) return;
   result.classList.remove('hidden');
   result.innerHTML = `
     <div class="qr-emoji">${emoji}</div>
@@ -930,13 +939,16 @@ function initKeyboardNav() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       const helpPanel = document.getElementById('helpPanel');
+      if (!helpPanel) return;
       if (!helpPanel.classList.contains('hidden')) { toggleHelp(); return; }
       const duaPanel = document.getElementById('duaPanel');
+      if (!duaPanel) return;
       if (!duaPanel.classList.contains('hidden')) { toggleDuaPanel(); return; }
       document.querySelectorAll('.principle-card.open').forEach(c => c.classList.remove('open'));
     }
     if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       const cardsPanel = document.getElementById('panel-cards');
+      if (!cardsPanel) return;
       if (!cardsPanel || !cardsPanel.classList.contains('active')) return;
       if (document.activeElement && document.activeElement.id === 'cardsSearch') return;
       e.preventDefault();
@@ -967,11 +979,14 @@ function toggleDuaPanel() {
 }
 function showToast(msg) {
   const t = document.getElementById('toast');
+  if (!t) return;
   const m = document.getElementById('toastMsg');
+  if (!m) return;
   if (t && m) { m.textContent = msg; t.style.display = 'block'; setTimeout(() => t.style.display = 'none', 2500); }
 }
 function initScrollTop() {
   const btn = document.getElementById('scrollTop');
+  if (!btn) return;
   window.addEventListener('scroll', () => {
     if (btn) btn.classList.toggle('visible', window.scrollY > 300);
   });
